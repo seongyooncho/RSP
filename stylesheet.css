@@ -1,0 +1,36 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: Helvetica, sans-serif;
+}
+.stage {
+	width: 100%;
+	height: 50%;
+}
+#pc {
+	background-color: #8adbdb;
+}
+#user {
+	background-color: white;
+}
+.hand {
+	width: 85%;
+	height: 40px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 1000px;
+	margin: auto;
+}
+.hand p {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+.spacer {
+	height: calc(25% - 30px);
+}
+#user .hand:hover {
+	border: 1px solid rgba(255, 0, 0, 0.5);
+	background-color: black;
+	color: white;
+}
